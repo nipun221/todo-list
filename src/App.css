@@ -4,7 +4,7 @@
 }
 
 .container {
-  background: linear-gradient(to right bottom, #e1b382, #c89666);
+  background: linear-gradient(to right bottom, #800000, #A0522D);
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -37,7 +37,7 @@
   font-size: 20px;
   color: #ccc;
   background-color: #000000;
-  border: 1px solid #c89666;
+  border: 1px solid #800000;
   border-radius: 10px;
 }
 
@@ -47,7 +47,7 @@
   font-size: 20px;
   border-radius: 10px;
   border: 0;
-  background-color: #f1af71;
+  background-color: #A0522D;
   cursor: pointer;
 }
 
@@ -82,6 +82,7 @@
 
 .button-edit {
   color: #e2d029;
+  margin-right: 10px;
 }
 
 .complete {
