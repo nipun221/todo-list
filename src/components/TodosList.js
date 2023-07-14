@@ -34,13 +34,13 @@ const TodosList = ({ todos, setTodos, setEditTodo }) => {
                 />
                 <div>
                     <button className='button-complete task-button' onClick={()=> handleComplete(todo)}>
-                        <i className="fa fa-check-circle" aria-hidden="true"></i>
+                        <i className="fa fa-check-square" aria-hidden="true"></i>
                     </button>
                     <button className='button-edit task-button' onClick={()=> handleEdit(todo)}>
-                        <i className='fa fa-edit' aria-hidden="true"></i>
+                        <i className='fa fa-cog' aria-hidden="true"></i>
                     </button>
                     <button className='button-delete task-button' onClick={()=> handleDelete(todo)}>
-                        <i className='fa fa-trash' aria-hidden="true"></i>
+                        <i className='fa fa-close' aria-hidden="true"></i>
                     </button>
                 </div>
             </li>

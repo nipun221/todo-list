@@ -45,7 +45,7 @@ const Form = ({ input, setInput, todos, setTodos, editTodo, setEditTodo }) => {
             onChange={onInputChange}
         />
         <button className='button-add' type='submit'>
-            {editTodo ? "OK" : "Add"}
+            {editTodo ? "OK" : <i className='fa fa-caret-square-o-right fa-lg' aria-hidden='true'></i>}
         </button>
     </form>
   );
